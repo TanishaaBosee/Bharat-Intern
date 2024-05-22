@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 4em;
+    color: #f8f5f5;
+    cursor: default;
+}
+.logo span {
+    color: #04f108;
+}
+.navigation {
+    padding: 0;
+    margin-top: 35px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #f4f2f2;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s
+}
+.navigation a:hover {
+    color: rgb(19, 246, 7);
+}
+.talk a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #40e82a;
+    border-radius: 10px;
+    border: 2px solid #f8f7f8;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.talk:hover {
+    color: #2ae850;
+    background: transparent;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    color: #faf7f7;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #b9fb03;
+}
+.content h3 span a {
+    color: #fa0303;
+    transform: matrix(-5px);
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.social-links {
+    position: absolute;
+    bottom: 50px;
+}
+.social-links a {
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background: #7ce82a;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 3px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    outline: 2px solid #0fb8d2;
+    transition: 0.8s;
+}
+.social-links a:hover {
+    transform: translateY(-5px);
+}
+.social-links a i {
+    background-color: #53d253;
+}
